@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="madprod.fcbub.ch"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="madprod.fcbub.ch.Startscreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="madprod.fcbub.ch.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.CLEARSCREEN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="madprod.fcbub.ch.Adressen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.ADRESSEN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.Clubhaus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.CLUBHAUS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.Grumpeli"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.GRUMPELI" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.Liveticker"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.LIVETICKER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.Spielplan"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.SPIELPLAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.Team"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.TEAM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.Termine"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.TERMINE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.Verschiedenes"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.VERSCHIEDENES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.Kader"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.KADER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.MSpielplan"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.MSPIELPLAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.Berichte"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.BERICHTE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.Tabelle"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.TABELLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+                <activity
+            android:name="madprod.fcbub.ch.Matchberichte"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.MATCHBERICHTE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="madprod.fcbub.ch.Kader"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.KADER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="madprod.fcbub.ch.Statistik"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.STATISTIK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="madprod.fcbub.ch.News"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="madprod.fcbub.ch.NEWS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:background="#0000CC"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent">
+
+    <LinearLayout 
+        	android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="horizontal"
+	   		android:layout_weight="1">
+	 	<LinearLayout
+	 	    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:background="@drawable/border" 
+	   		android:gravity="center" 
+	   		android:layout_margin="6dip">
+	     	    
+	     	<ImageButton 
+		        android:id="@+id/ibTeams"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:src="@drawable/team"
+		   		android:layout_weight="1"/> 
+	   		
+	 	    <TextView
+		 	    android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+	 	        android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Mannschaften" 
+	 	        android:gravity="center"/>
+	 	    
+	 	</LinearLayout>
+    
+    
+	 	<LinearLayout
+	 	    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:background="@drawable/border" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" android:layout_margin="6dip">
+	     	    
+	     	<ImageButton 
+		        android:id="@+id/ibSpielplan"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/kalender"
+		   		android:layout_weight="1"/> 
+	   		
+	 	    <TextView
+		 	    android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+	 	        android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Spielplan" 
+	 	        android:gravity="center"/>
+	 	    
+	 	</LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout 
+        	android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	 	    android:layout_weight="1"
+	   		android:orientation="horizontal">
+	 	<LinearLayout
+	 	    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" 
+	   		android:background="@drawable/border" 
+	   		android:layout_margin="6dip">
+	     	    
+	     	<ImageButton 
+		        android:id="@+id/ibContact"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/kontakte"
+		   		android:layout_weight="1"/> 
+	   		
+	 	    <TextView
+	 	    	android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+	 	        android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Adressen" 
+	 	        android:gravity="center"/>
+	 	    
+	 	</LinearLayout>
+    
+    
+  		<LinearLayout 
+  		    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:background="@drawable/border" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" android:layout_margin="6dip">
+  		    
+		    <ImageButton 
+		        android:id="@+id/ibTermine"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/termine" 
+		   		android:layout_weight="1"/> 
+		    <TextView 
+		        android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+		       	android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Termine" 
+	 	        android:gravity="center"
+		        />
+		    
+		</LinearLayout>
+    </LinearLayout>
+
+    
+	<LinearLayout 
+        	android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	 	    android:layout_weight="1"
+	   		android:orientation="horizontal">
+	 	<LinearLayout
+	 	    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:background="@drawable/border" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" android:layout_margin="6dip">
+	     	    
+	     	<ImageButton 
+		        android:id="@+id/ibLiveticker"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/liveticker"
+		   		android:layout_weight="1"/> 
+	   		
+	 	    <TextView
+		 	    android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+	 	        android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Liveticker" 
+	 	        android:gravity="center"/>
+	 	    
+	 	</LinearLayout>
+    
+    
+  		<LinearLayout 
+  		    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:background="@drawable/border" 
+	   		android:gravity="center" android:layout_margin="6dip">
+  		    
+		    <ImageButton 
+		        android:id="@+id/ibGrumpeli"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/kader" 
+		   		android:layout_weight="1"/> 
+		    <TextView 
+		       	android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:textColor="#FFD700"
+		   		android:textStyle="bold"            
+		    	android:textSize="20dip"
+	 	        android:text="Grümpeli" 
+	 	        android:gravity="center"
+		        />
+		    
+		</LinearLayout>
+    </LinearLayout>    
+    
+	<LinearLayout 
+        	android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	 	    android:layout_weight="1"
+	   		android:orientation="horizontal">
+	 
+  		<LinearLayout 
+  		    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" 
+	   		android:background="@drawable/border" 
+	   		android:layout_margin="6dip">
+  		    
+		    <ImageButton 
+		        android:id="@+id/ibClubhaus"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/kader" 
+		   		android:layout_weight="1"/> 
+		    <TextView 
+		       	android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:textColor="#FFD700"
+		   		android:textStyle="bold"            
+		    	android:textSize="20dip"
+	 	        android:text="Klubhaus" 
+	 	        android:gravity="center"
+		        />
+		    
+		</LinearLayout>
+		<LinearLayout 
+  		    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" 
+	   		android:background="@drawable/border" 
+	   		android:layout_margin="6dip">
+  		    
+		    <ImageButton 
+		        android:id="@+id/ibStuff"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:src="@drawable/kader" 
+		   		android:layout_weight="1"/> 
+		    <TextView 
+		        android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+		       	android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Verschiedenes" 
+	 	        android:gravity="center"/>	    
+		</LinearLayout>
+    </LinearLayout>  
+</LinearLayout>

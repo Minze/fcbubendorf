@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:background="#0000CC"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent">
+
+    <LinearLayout 
+        	android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="horizontal"
+	   		android:layout_weight="1">
+	 	<LinearLayout
+	 	    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" 
+	   		android:layout_margin="8dip">
+	     	    
+	     	<ImageButton 
+		        android:id="@+id/ibGeschichte"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:src="@drawable/kader"
+		   		android:background="@null"
+		   		android:layout_weight="1"/> 
+	   		
+	 	    <TextView
+		 	    android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+	 	        android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Geschichte" 
+	 	        android:gravity="center"/>
+	 	    
+	 	</LinearLayout>
+    
+    
+	 	<LinearLayout
+	 	    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" 
+	   		android:layout_margin="8dip">
+	     	    
+	     	<ImageButton 
+		        android:id="@+id/ibStatuten"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/kader"
+		   		android:background="@null"
+		   		android:layout_weight="1"/> 
+	   		
+	 	    <TextView
+		 	    android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+	 	        android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Statuten" 
+	 	        android:gravity="center"/>
+	 	    
+	 	</LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout 
+        	android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	 	    android:layout_weight="1"
+	   		android:orientation="horizontal">
+	 	<LinearLayout
+	 	    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" 
+	   		android:layout_margin="8dip">
+	     	    
+	     	<ImageButton 
+		        android:id="@+id/ibOrganigramm"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/kader"
+		   		android:background="@null"
+		   		android:layout_weight="1"/> 
+	   		
+	 	    <TextView
+	 	    	android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+	 	        android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Organigramm" 
+	 	        android:gravity="center"/>
+	 	    
+	 	</LinearLayout>
+    
+    
+  		<LinearLayout 
+  		    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" android:layout_margin="8dip">
+  		    
+		    <ImageButton 
+		        android:id="@+id/ibVerhaltenskodex"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/kader" 
+		   		android:background="@null"
+		   		android:layout_weight="1"/> 
+		    <TextView 
+		        android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+		       	android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Kodex" 
+	 	        android:gravity="center"
+		        />
+		    
+		</LinearLayout>
+    </LinearLayout>
+
+    
+	<LinearLayout 
+        	android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	 	    android:layout_weight="1"
+	   		android:orientation="horizontal">
+	 	<LinearLayout
+	 	    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" android:layout_margin="8dip">
+	     	    
+	     	<ImageButton 
+		        android:id="@+id/ibInfrastruktur"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/kader"
+		   		android:background="@null"
+		   		android:layout_weight="1"/> 
+	   		
+	 	    <TextView
+		 	    android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+	 	        android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Infrastruktur" 
+	 	        android:gravity="center"/>
+	 	    
+	 	</LinearLayout>
+    
+    
+  		<LinearLayout 
+  		    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" 
+	   		android:layout_margin="8dip">
+  		    
+		    <ImageButton 
+		        android:id="@+id/ibGV"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/kader" 
+		   		android:background="@null"
+		   		android:layout_weight="1"/> 
+		    <TextView 
+		       	android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:textColor="#FFD700"
+		   		android:textStyle="bold"            
+		    	android:textSize="20dip"
+	 	        android:text="GV" 
+	 	        android:gravity="center"
+		        />
+		    
+		</LinearLayout>
+    </LinearLayout>    
+    
+	<LinearLayout 
+        	android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	 	    android:layout_weight="1"
+	   		android:orientation="horizontal">
+	 	
+    
+    
+  		<LinearLayout 
+  		    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" 
+	   		android:layout_margin="8dip">
+  		    
+		    <ImageButton 
+		        android:id="@+id/ibGeburtstage"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+		   		android:src="@drawable/kader" 
+		   		android:background="@null"
+		   		android:layout_weight="1"/> 
+		    <TextView 
+		       	android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:textColor="#FFD700"
+		   		android:textStyle="bold"            
+		    	android:textSize="20dip"
+	 	        android:text="Geburtstage" 
+	 	        android:gravity="center"
+		        />
+		    
+		</LinearLayout>
+		<LinearLayout 
+  		    android:layout_width="fill_parent"
+	 	    android:layout_height="fill_parent"
+	   		android:orientation="vertical" 
+	   		android:layout_weight="1" 
+	   		android:gravity="center" 
+	   		android:layout_margin="8dip">
+  		    
+		    <ImageButton 
+		        android:id="@+id/ibFormulare"
+			    android:scaleType="fitCenter" 
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:src="@drawable/kader" 
+		   		android:background="@null" 
+		   		android:layout_weight="1"/> 
+		    <TextView 
+		        android:textColor="#FFD700"
+			    android:textStyle="bold"            
+			    android:textSize="20dip"
+		       	android:layout_width="wrap_content"
+	 	        android:layout_height="wrap_content"
+	 	        android:text="Formulare" 
+	 	        android:gravity="center"/>	    
+		</LinearLayout>
+    </LinearLayout>  
+</LinearLayout>
